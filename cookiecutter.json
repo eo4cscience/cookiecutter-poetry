@@ -1,7 +1,7 @@
 {
-    "author": "Florian Maas",
-    "email": "fpgmaas@gmail.com",
-    "author_github_handle" : "fpgmaas",
+    "author": "Raynier van Egmond",
+    "email": "raynierx@gmail.com",
+    "author_github_handle" : "rayniervanegmond",
     "project_name": "example-project",
     "project_slug": "{{cookiecutter.project_name|lower|replace('-', '_')}}",
     "project_description": "This is a template repository for Python projects that use Poetry for their dependency management.",
@@ -9,7 +9,7 @@
     "publish_to": ["pypi", "artifactory", "none"],
     "deptry": ["y", "n"],
     "mkdocs": ["y", "n"],
-    "codecov" : ["y","n"],
-    "dockerfile" : ["y","n"],
-    "open_source_license": ["MIT license", "BSD license", "ISC license", "Apache Software License 2.0", "GNU General Public License v3", "Not open source"]
+    "codecov" : ["n","y"],
+    "dockerfile" : ["n","y"],
+    "open_source_license": ["Not open source", "MIT license", "BSD license", "ISC license", "Apache Software License 2.0", "GNU General Public License v3"]
 }
